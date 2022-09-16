@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/InSorma_Kelompok/app/src/main/res/layout/activity_detail.xml" value="0.22" />
+        <entry key="..\:/InSorma_Kelompok/app/src/main/res/layout/activity_homepage.xml" value="0.21" />
+        <entry key="..\:/InSorma_Kelompok/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/InSorma_Kelompok/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/InSorma_Kelompok/app/src/main/res/layout/furniture_item.xml" value="0.33" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/drawable/button.xml" value="0.1175" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/drawable/edittext.xml" value="0.1835" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/drawable/ic_baseline_grading_24.xml" value="0.1" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/activity_catalog.xml" value="0.1" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/activity_catalog_item.xml" value="0.1" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/activity_detail.xml" value="0.17289719626168223" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/activity_profile.xml" value="0.20967741935483872" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/catalog_layout.xml" value="0.22" />
+        <entry key="..\:/InSorma_Kelompok_Revisi/InSorma_Kelompok/app/src/main/res/layout/furniture_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

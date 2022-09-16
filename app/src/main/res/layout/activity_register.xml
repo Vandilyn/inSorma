@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Register">
+
+    <TextView
+        android:id="@+id/registertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:fontFamily="serif"
+        android:text="inSorma"
+        android:textColor="#1c7bff"
+        android:textSize="48dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/emailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registertxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="12"
+        android:hint="Email"
+        android:background="@drawable/edittext"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/usernametxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailtxt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="12"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/phoneNumbertxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernametxt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext"
+        android:ems="12"
+        android:hint="Phone number"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/passwordtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneNumbertxt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext"
+        android:ems="12"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordtxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/punyaAkun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="serif"
+        android:text="Sudah punya akun?"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/loginRedirect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/punyaAkun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="2dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textColor="#1c7bff"/>
+
+</RelativeLayout>

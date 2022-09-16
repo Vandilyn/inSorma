@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:id="@+id/detailFurniture">
+
+    <ImageView
+        android:id="@+id/FurnitureImage"
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@color/black"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/FurnitureName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA FURNITURE"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/FurnitureOverview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESKRIPSI FURNITUR"/>
+
+        <TextView
+            android:id="@+id/FurnitureRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RATING"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/FurniturePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HARGA"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</LinearLayout>
